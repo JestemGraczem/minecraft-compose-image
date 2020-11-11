@@ -1,0 +1,3 @@
+#!/bin/bash
+VERSION=forge-1.12.2-14.23.5.2854-universal
+java -jar /home/minecraft/$VERSION.jar
