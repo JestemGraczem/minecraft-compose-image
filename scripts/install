@@ -1,0 +1,6 @@
+#!/bin/bash
+VERSION=1.12.2-14.23.5.2854
+PATH=/home/minecraft/forge-$VERSION-installer.jar
+wget https://files.minecraftforge.net/maven/net/minecraftforge/forge/$VERSION/forge-$VERSION-installer.jar $PATH
+java -jar $PATH --install
+rm -rf $PATH*
